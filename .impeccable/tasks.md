@@ -5,6 +5,7 @@
 - 2026-06-17: Initialized the local `.impeccable` workflow in an otherwise empty workspace.
 - Repository status at initialization: no Git repository detected in `C:\Users\admin\Documents\POS-HJA`.
 - 2026-06-17: Preparing to connect the workspace to `https://github.com/Alexhzier/POS-HJA.git`.
+- 2026-06-17: Merged the existing GitHub `README.md` history with the local initialization commit.
 
 ## Open Tasks
 
