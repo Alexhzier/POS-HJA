@@ -6,11 +6,13 @@
 - Repository status at initialization: no Git repository detected in `C:\Users\admin\Documents\POS-HJA`.
 - 2026-06-17: Preparing to connect the workspace to `https://github.com/Alexhzier/POS-HJA.git`.
 - 2026-06-17: Merged the existing GitHub `README.md` history with the local initialization commit.
+- 2026-06-17: Confirmed `main` tracks `origin/main` and pushed the initial merged history to GitHub.
+- 2026-06-17: Documented the current project status and Git workflow in `README.md`.
 
 ## Open Tasks
 
 - Define the project stack and application scope when implementation begins.
-- Confirm the initial commit is pushed to GitHub.
+- Define the first POS workflow to implement.
 
 ## Decisions
 
