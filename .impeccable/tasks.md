@@ -9,13 +9,14 @@
 - 2026-06-17: Confirmed `main` tracks `origin/main` and pushed the initial merged history to GitHub.
 - 2026-06-17: Documented the current project status and Git workflow in `README.md`.
 - 2026-06-17: Captured init answers: Java, React, and SQLite POS for cashiers, inventory managers, and admin/store owners.
+- 2026-06-17: Added planning docs for design, user flows, wireframes, and the initial SQLite data model.
 
 ## Open Tasks
 
 - Decide the Java backend framework.
 - Choose React build tooling.
 - Define the first checkout cart screen and API endpoint.
-- Draft the initial data model for products, users, sales, and inventory.
+- Confirm schema questions in `docs/data-model.md`.
 
 ## Decisions
 

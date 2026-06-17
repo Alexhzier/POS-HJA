@@ -36,6 +36,13 @@ The selected stack is Java, React, and SQLite.
 - Frontend: React
 - Database: SQLite
 
+## Planning Docs
+
+- `docs/design.md` defines the visual direction, screen structure, roles, and interaction standards.
+- `docs/user-flows.md` maps the main cashier, inventory, reporting, login, and admin flows.
+- `docs/wireframes.md` contains low-fidelity screen layouts.
+- `docs/data-model.md` drafts the first SQLite schema.
+
 ## Repository Workflow
 
 Before making meaningful changes, check:
