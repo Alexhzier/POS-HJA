@@ -36,6 +36,34 @@ The selected stack is Java, React, and SQLite.
 - Frontend: React
 - Database: SQLite
 
+## Desktop App
+
+The first static desktop app design lives in `frontend/`. It uses React/Vite for the interface and Electron as the desktop app shell.
+
+Run the desktop app locally:
+
+```powershell
+cd frontend
+npm install
+npm run app:dev
+```
+
+Run the browser preview only:
+
+```powershell
+cd frontend
+npm run dev
+```
+
+Current app coverage:
+
+- App shell with sidebar navigation.
+- Checkout screen with product search, quick-pick products, cart, and totals.
+- Inventory screen with filters and stock table.
+- Reports screen with daily metrics and sales table.
+- Users screen for role/account overview.
+- Login screen for staff access.
+
 ## Planning Docs
 
 - `docs/design.md` defines the visual direction, screen structure, roles, and interaction standards.
@@ -73,5 +101,5 @@ git push
 
 - Decide the initial data model for products, sales, and inventory.
 - Choose the Java backend framework.
-- Choose the React build tooling.
-- Define the first screen and API endpoint for the checkout workflow.
+- Define the first backend API endpoint for the checkout workflow.
+- Decide how authentication and role permissions should work.
