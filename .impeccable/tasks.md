@@ -8,13 +8,22 @@
 - 2026-06-17: Merged the existing GitHub `README.md` history with the local initialization commit.
 - 2026-06-17: Confirmed `main` tracks `origin/main` and pushed the initial merged history to GitHub.
 - 2026-06-17: Documented the current project status and Git workflow in `README.md`.
+- 2026-06-17: Captured init answers: Java, React, and SQLite POS for cashiers, inventory managers, and admin/store owners.
 
 ## Open Tasks
 
-- Define the project stack and application scope when implementation begins.
-- Define the first POS workflow to implement.
+- Decide the Java backend framework.
+- Choose React build tooling.
+- Define the first checkout cart screen and API endpoint.
+- Draft the initial data model for products, users, sales, and inventory.
 
 ## Decisions
 
 - Use lightweight Markdown guidance until the project has concrete tooling.
 - Keep quality gates advisory so they can adapt to the eventual stack.
+- Build POS-HJA with Java, React, and SQLite.
+- Support cashier, inventory manager, and admin/store owner roles.
+- Prioritize checkout cart, inventory management, daily sales report, and login/sign-up workflows.
+- Use SQLite for product and sales data.
+- Ask before each commit and push.
+- Expected verification: tests, browser run, lint/typecheck, and manual checklist when relevant.

@@ -1,19 +1,40 @@
 # POS-HJA
 
-POS-HJA is a planned point-of-sale system for the HJA candy and school supplies store.
+POS-HJA is a point-of-sale system for the HJA candy and school supplies store.
 
 ## Current Status
 
 This repository is in its initialization phase. It currently contains the project README and an `.impeccable` workflow scaffold for tracking decisions, quality gates, and implementation notes.
 
-No application stack has been selected yet.
+The selected stack is Java, React, and SQLite.
 
 ## Project Goals
 
 - Track sales for candy and school supply items.
 - Support store inventory workflows.
+- Provide user login and sign-up for store roles.
+- Generate daily sales reports.
 - Keep future implementation decisions documented as the project takes shape.
 - Build with small, reviewable changes that can be verified before they are pushed.
+
+## Users
+
+- Cashier
+- Inventory manager
+- Admin/store owner
+
+## Initial Workflows
+
+- Checkout cart
+- Inventory management
+- Daily sales report
+- User login and sign-up
+
+## Stack
+
+- Backend: Java
+- Frontend: React
+- Database: SQLite
 
 ## Repository Workflow
 
@@ -43,6 +64,7 @@ git push
 
 ## Next Decisions
 
-- Choose the application stack.
-- Define the first POS workflow to build.
 - Decide the initial data model for products, sales, and inventory.
+- Choose the Java backend framework.
+- Choose the React build tooling.
+- Define the first screen and API endpoint for the checkout workflow.
